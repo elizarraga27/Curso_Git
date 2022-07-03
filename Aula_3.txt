@@ -1,0 +1,78 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd desktop
+    6  ls
+    7  ls -a
+    8  cd..
+    9  cd..
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd Users
+   15  cd users
+   16  ls
+   17  cd aleja
+   18  ls
+   19  pwd
+   20  cd desktop
+   21  mkdir comando
+   22  cd comando
+   23  ls
+   24  mkdir pasta nova
+   25  ls
+   26  mkdir "pasta nova"
+   27  ls
+   28  mkdir -p new/old
+   29  ls
+   30  cd new
+   31  ls
+   32  rm -r old
+   33  ls
+   34  clear
+   35  git config --global user.name "Eduardo Lizarraga"
+   36  git config --global user.email "eduardo.alejandro.lizarraga@gmail.com"
+   37  git config user.name
+   38  cd desktop
+   39  mkdir Curso_Git
+   40  git config user.name
+   41  git init
+   42  cd Curso_Git
+   43  git config user.name
+   44  git init
+   45  git stat
+   46  git status
+   47  echo "#Aprendendo usar o Git" > Readme.md
+   48  git status
+   49  git add readme.md
+   50  git status
+   51  git add Readme.md
+   52  git status
+   53  git commit -m "commit inicial"
+   54  git status
+   55  echo "##Aula 1" >> Readme.md
+   56  git status
+   57  echo "Eduardo Lizarraga" > participantes.txt
+   58  git status
+   59  git add.
+   60  git add .
+   61  git status
+   62  git restore --staged .
+   63  git status
+   64  git commit -am "alteração no Readme
+   65  git commit -am "alteração no Readme"
+   66  git status
+   67  git status
+   68  clear
+   69  cd desktop
+   70  cd Curso_Git
+   71  git statu
+   72  git status
+   73  git commit -am "Alteração no Readme"
+   74  git status
+   75  git add participantes.txt
+   76  git status
+   77  git commit -m "adicionado participantes.txt"
+   78  history > Aula_3.txt
