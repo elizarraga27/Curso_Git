@@ -1,0 +1,144 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  cd desktop
+    6  ls
+    7  ls -a
+    8  cd..
+    9  cd..
+   10  cd ..
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd Users
+   15  cd users
+   16  ls
+   17  cd aleja
+   18  ls
+   19  pwd
+   20  cd desktop
+   21  mkdir comando
+   22  cd comando
+   23  ls
+   24  mkdir pasta nova
+   25  ls
+   26  mkdir "pasta nova"
+   27  ls
+   28  mkdir -p new/old
+   29  ls
+   30  cd new
+   31  ls
+   32  rm -r old
+   33  ls
+   34  clear
+   35  git config --global user.name "Eduardo Lizarraga"
+   36  git config --global user.email "eduardo.alejandro.lizarraga@gmail.com"
+   37  git config user.name
+   38  cd desktop
+   39  mkdir Curso_Git
+   40  git config user.name
+   41  git init
+   42  cd Curso_Git
+   43  git config user.name
+   44  git init
+   45  git stat
+   46  git status
+   47  echo "#Aprendendo usar o Git" > Readme.md
+   48  git status
+   49  git add readme.md
+   50  git status
+   51  git add Readme.md
+   52  git status
+   53  git commit -m "commit inicial"
+   54  git status
+   55  echo "##Aula 1" >> Readme.md
+   56  git status
+   57  echo "Eduardo Lizarraga" > participantes.txt
+   58  git status
+   59  git add.
+   60  git add .
+   61  git status
+   62  git restore --staged .
+   63  git status
+   64  git commit -am "alteração no Readme
+   65  git commit -am "alteração no Readme"
+   66  git status
+   67  git status
+   68  clear
+   69  clear
+   70  git log
+   71  git log --pretty=oneline
+   72  git log -stat
+   73  git log --stat
+   74  git log --stat
+   75  git log --pretty=oneline
+   76  git log
+   77  cd desktop
+   78  cd Curso_Git
+   79  git log
+   80  git log --pretty=oneline
+   81  git log --stat
+   82  cd desktop
+   83  cd Cursp_Git
+   84  cd Curso_Git
+   85  git log
+   86  cd desktop
+   87  cd Curso_Git
+   88  git log
+   89  git log --pretty=oneline
+   90  git log -p
+   91  git log --stat
+   92  git log --pretty=oneline
+   93  git log --pretty=oneline -2
+   94  git log --pretty=oneline -4
+   95  git log --pretty=oneline -3
+   96  git log --since=2.minutes
+   97  git log --since=20.minutes
+   98  git log --since=20.weeks
+   99  git log --autor="Eduardo Lizarraga"
+  100  git log --author="Eduardo Lizarraga"
+  101  git log
+  102  git status
+  103  touch teste
+  104  git add teste
+  105  git status
+  106  git commit -m "commite de teste"
+  107  git log
+  108  git reset --soft HEAD~
+  109  git log
+  110  git status
+  111  git commit -m "commite de teste"
+  112  git status
+  113  git status
+  114  git log
+  115  git reset --hard HEAD~
+  116  git log
+  117  git status
+  118  git log --pretty=oneline
+  119  git checkout HEAD~~
+  120  git status
+  121  git log
+  122  ls
+  123  git checkout master
+  124  git log
+  125  git checkout HEAD~2
+  126  git checkout master
+  127  git log
+  128  mkdir .vscode
+  129  touch conf.txt
+  130  mv conf.txt .vscode/
+  131  ls .vscode/
+  132  ls
+  133  ls -a
+  134  git status
+  135  echo ".vscode/" > .gitignore
+  136  git status
+  137  touch pessoal.conf
+  138  git status
+  139  echo "pessoal.conf">> .gitignore
+  140  git status
+  141  git add .gitignore
+  142  git commit -m "Adicionado arquivo .gitignore"
+  143  git status
+  144  history > Aula_4.txt
